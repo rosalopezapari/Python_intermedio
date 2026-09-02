@@ -43,3 +43,29 @@ print("nivel naranja")
 else:
   print ("nivel rojo")
 ´´´
+### sentecia match-case
+esta es una nueva sentencia condicional,similar a los if animados :
+´´´python 
+vocal:str="a"
+match vocal:
+case"a":
+print ("es una vocal")
+case "e"
+print ("es una vocal")
+case"i":
+print ("es una vocal")
+case "o"
+ print ("es una vocal")
+ case "u"
+ print ("es una vocal")
+
+case_:
+print("es una constante")
+
+
+vocal:str=input("ingrese una letra: ")
+match vocall:
+case "a"/"e"/"i"/"o"/"u":
+print ("es una vocal")
+case _:
+print ("es una constante")
