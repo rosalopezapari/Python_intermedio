@@ -69,3 +69,35 @@ case "a"/"e"/"i"/"o"/"u":
 print ("es una vocal")
 case _:
 print ("es una constante")
+´´´´
+## bucles
+### la sentencia while 
+es el primer mecanismo que exixte en python para repetir instrucciones. la sementica tras esta sentencia es :´Mientras se cumpla la condicion has algo´.
+ejemplo:
+´´´python 
+salir:str="N"
+while salir =="N":
+print ("Hol que taal")
+salir=input("deseas sair (S/N): ")
+print("adios")
+´´´
+
+se piede cortar la ejecucion de un while 
+pregunta = "¿Cuánto es 5 + 7?"
+respuesta_correcta = "12"
+
+oportunidades = 3
+
+while oportunidades > 0:
+    print(f"\nTienes {oportunidades} oportunidades")
+    respuesta = input(f"{pregunta} ")
+    
+    if respuesta == respuesta_correcta:
+        print("Correcto")
+        break
+    else:
+        oportunidades = oportunidades - 1
+        if oportunidades > 0:
+            print("Incorrecto. Intenta de nuevo")
+        else:
+            print(f"Se acabaron tus intentos. La respuesta correcta era: {respuesta_correcta}")
