@@ -5,9 +5,9 @@ ingredientes:list[str]=["camote","papa","queso","huevo"]
 for i in ingredientes:
     if i == "queso":
 
-        print( f"el valor es:"{i}  )
+        print(f"el valor es: {i}")
 
-        print( f" el indice es:"{ingredientes.index (1) } )
+        print(f" el indice es: {ingredientes.index (1) }")
 
 ## 2. del siguente texto "errar es umano dijo el pato bajandose de la gallina" encontrar el error ortografico y corregir con por el correcto.
 texto = "errar es umano dijo el pato bajandose de la gallina"
